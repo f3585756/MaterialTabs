@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="0dp"
+        android:text="  Selamat Datang"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/persegi"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text=" Persegi"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="#FFFFFF"/>
+
+
+    <Button
+        android:id="@+id/ppanjang"
+        android:layout_width="279dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:text="Persegi Panjang"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/segitiga"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text=" Segitiga"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="#fff"/>
+
+    <Button
+        android:id="@+id/lingkaran"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="   Lingkaran"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="#fff"/>
+</LinearLayout>
+
+
+
+
